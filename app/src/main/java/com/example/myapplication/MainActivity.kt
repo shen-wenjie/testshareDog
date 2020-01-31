@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -76,9 +77,20 @@ class MainActivity : AppCompatActivity() {
 
         for (i in points) {
             Log.d("kotlintest", i.toString())
-        }*/
+        }
 
         val dog1=Dog("わんわん",1);
         dog1.say()
+
+        val bigdog = BigDog("ビッグワンワン",5)
+        bigdog.say()*/
+
+        val person1 = Human("久保",18,"芝居");
+        person1.say()
+        person1.think()
+
+        val person2 = Human("山下",20,"旅行");
+        person2.say()
+        person2.think()
     }
 }

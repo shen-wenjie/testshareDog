@@ -29,7 +29,7 @@
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
         android:layout_marginBottom="447dp"
-        android:text="Hello Android"
+        android:text="TextView"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,11 +40,5 @@
         tools:text="test hello world"
         tools:visibility="visible" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="テキストで追加!"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="50dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

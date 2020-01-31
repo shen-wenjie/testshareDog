@@ -80,6 +80,5 @@ class MainActivity : AppCompatActivity() {
 
         val dog1=Dog("わんわん",1);
         dog1.say()
-        dog1.say()
     }
 }
